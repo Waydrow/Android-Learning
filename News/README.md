@@ -1,9 +1,9 @@
 ## 一个简单的新闻客户端
 
 ### 界面预览
-![](http://7xrmgx.com1.z0.glb.clouddn.com/2016-03-08_170448.png)  
- 
-点击相应新闻即可跳转到详细内容页: 
+![](http://7xrmgx.com1.z0.glb.clouddn.com/2016-03-08_170448.png)    
+
+点击相应新闻即可跳转到详细内容页:   
 ![](http://7xrmgx.com1.z0.glb.clouddn.com/2016-03-08_170509.png)
 
 ### 使用php生成新闻JSON数据

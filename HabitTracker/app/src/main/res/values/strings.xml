@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Times of the habit in a week -->
+    <string name="times_1">1</string>
+    <string name="times_2">2</string>
+    <string name="times_3">3</string>
+    <string name="delete_all">Delete All</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="update_habit_label">Update Habit</string>
+</resources>

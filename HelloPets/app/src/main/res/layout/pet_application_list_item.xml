@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="16dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp">
+
+    <TextView
+        android:layout_marginLeft="0dp"
+        android:id="@+id/pet_name"
+        style="@style/pet_attribute"
+        tools:text="小黑" />
+
+    <TextView
+        android:id="@+id/breed"
+        style="@style/pet_attribute"
+        tools:text="藏獒" />
+
+    <TextView
+        android:id="@+id/pet_sex"
+        style="@style/pet_attribute"
+        tools:text="雌性" />
+
+    <TextView
+        android:id="@+id/pet_age"
+        style="@style/pet_attribute"
+        tools:text="2岁" />
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/is_pass"
+        style="@style/pet_attribute"
+        tools:text="待审核" />
+
+</LinearLayout>

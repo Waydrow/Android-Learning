@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/user_settings">
+
+    <EditTextPreference
+        android:visibility="gone"
+        android:defaultValue="-1"
+        android:inputType="text"
+        android:key="@string/user_id" />
+
+    <EditTextPreference
+        android:visibility="gone"
+        android:defaultValue=""
+        android:inputType="text"
+        android:key="@string/username" />
+
+    <EditTextPreference
+        android:visibility="gone"
+        android:defaultValue=""
+        android:inputType="text"
+        android:key="@string/password" />
+
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="name">名字</string>
+    <string name="sexChoice">请选择性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="shoppingChoice">在购物时，你通常会</string>
+    <string name="buyNow">只要喜欢，即使有些贵也会买下</string>
+    <string name="buyWait">货比三家甚至更多</string>
+    <string name="payChoice">您一般用什么方式付款</string>
+    <string name="Crash">现金</string>
+    <string name="alipay">支付宝</string>
+    <string name="advice">您对大学生消费还有什么建议吗?</string>
+    <string name="pleaseInput">请输入</string>
+    <string name="submit">提交</string>
+    <string name="title">大学生消费调查表</string>
+    <string name="pleaseInputName">请输入姓名</string>
+    <string name="pleaseChooseSex">请选择性别</string>
+    <string name="pleaseChooseShopping">请选择购物习惯</string>
+    <string name="pleaseChoosePay">请选择支付方式</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="我的资料" />
+        <item
+            android:id="@+id/my_activity"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="我的活动" />
+        <item
+            android:id="@+id/love_bank"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="爱心银行" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+    </group>
+
+    <item android:title="交流">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="发送" />
+        </menu>
+    </item>
+
+</menu>

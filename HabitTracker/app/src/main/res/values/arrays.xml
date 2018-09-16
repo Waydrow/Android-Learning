@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_times_options">
+        <item>@string/times_1</item>
+        <item>@string/times_2</item>
+        <item>@string/times_3</item>
+    </string-array>
+</resources>

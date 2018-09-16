@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 用户偏好设置属性 -->
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="text"
+        android:key="@string/settings_breed"
+        android:title="@string/settings_breed_title" />
+
+    <ListPreference
+        android:defaultValue=""
+        android:entries="@array/settings_sex_labels"
+        android:entryValues="@array/settings_sex_values"
+        android:key="@string/settings_sex"
+        android:title="@string/settings_sex_title" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="text"
+        android:key="@string/settings_character"
+        android:title="@string/settings_character_title" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_query_by_default"
+        android:entries="@array/settings_is_all_query_labels"
+        android:entryValues="@array/settings_is_part_query_values"
+        android:key="@string/settings_query_by_key"
+        android:title="@string/settings_query_by_label" />
+</PreferenceScreen>

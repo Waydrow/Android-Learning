@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.happysport.InformationActivity">
+
+    <item
+        android:id="@+id/action_application"
+        android:icon="@drawable/list_item_circle"
+        android:orderInCategory="1"
+        android:title="@string/my_application"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/list_item_circle"
+        android:orderInCategory="1"
+        android:title="@string/prefer_set"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_change_personal_information"
+        android:icon="@drawable/list_item_circle"
+        android:orderInCategory="1"
+        android:title="@string/personal_information_change"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_change_password"
+        android:icon="@drawable/list_item_circle"
+        android:orderInCategory="1"
+        android:title="@string/password_change"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/list_item_circle"
+        android:orderInCategory="1"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

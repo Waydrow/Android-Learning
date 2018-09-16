@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_is_all_query_labels">
+        <item>@string/settings_is_all_query_label</item>
+        <item>@string/settings_is_part_query_label</item>
+    </string-array>
+    <string-array name="settings_is_part_query_values">
+        <item>@string/settings_is_all_query_value</item>
+        <item>@string/settings_is_part_query_value</item>
+    </string-array>
+
+    <string-array name="settings_sex_labels">
+        <item>@string/settings_sex_male_label</item>
+        <item>@string/settings_sex_female_label</item>
+        <item>@string/settings_sex_both_label</item>
+    </string-array>
+    <string-array name="settings_sex_values">
+        <item>@string/settings_sex_male_value</item>
+        <item>@string/settings_sex_female_value</item>
+        <item>@string/settings_sex_both_value</item>
+    </string-array>
+</resources>

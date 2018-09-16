@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">HelloPets</string>
+
+    <string name="login">登录</string>
+
+    <string name="register">注册</string>
+
+    <string name="pet_list">宠物列表</string>
+
+    <string name="pet_details">宠物详情</string>
+
+    <string name="my_application">我的申请</string>
+
+    <string name="look_collection">查看收藏</string>
+
+    <string name="personal_information_change">个人信息</string>
+
+    <string name="password_change">修改密码</string>
+
+    <string name="prefer_set">设置偏好</string>
+
+    <string name="logout">注销</string>
+
+    <string name="user_settings">账户设置</string>
+
+    <string name="if_update">确定要修改吗</string>
+
+    <string name="sure">确定</string>
+
+    <string name="cancel">取消</string>
+
+    <!--将注册后的信息保留,方便用户，同时可以取得user_id，方便进一步的操作-->
+    <string name="user_id">user_id</string>
+
+    <string name="username">username</string>
+
+    <string name="password">password</string>
+
+    <!-- 用于偏好的设定 -->
+    <string name="settings_breed">pre_breed</string>
+
+    <string name="settings_breed_title">宠物类别</string>
+
+    <string name="settings_character">pre_character</string>
+
+    <string name="settings_character_title">宠物性格</string>
+
+
+
+    <string name="settings_sex">pre_sex</string>
+
+    <string name="settings_sex_title">宠物性别</string>
+
+    <string name="settings_sex_male_label">雄性</string>
+
+    <string name="settings_sex_male_value">m</string>
+
+    <string name="settings_sex_female_label">雌性</string>
+
+    <string name="settings_sex_female_value">f</string>
+
+    <string name="settings_sex_both_label">不限</string>
+
+    <string name="settings_sex_both_value">""</string>
+
+    <string name="settings_query_by_label">查找方式</string>
+
+    <string name="settings_query_by_key" translatable="false">query method</string>
+
+    <string name="settings_query_by_default" translatable="false">0</string>
+
+    <string name="settings_is_all_query_label">满足全部条件</string>
+
+    <string name="settings_is_all_query_value" translatable="false">1</string>
+
+    <string name="settings_is_part_query_label">满足某个条件</string>
+
+    <string name="settings_is_part_query_value" translatable="false">0</string>
+
+</resources>

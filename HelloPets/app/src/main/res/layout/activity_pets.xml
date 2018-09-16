@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.hellopets.PetsActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/header_item_circle"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/pet_attribute"
+            android:text="昵称"
+            android:textSize="20sp"
+            android:textColor="#5C5C5C" />
+
+        <TextView
+            style="@style/pet_attribute"
+            android:text="品种"
+            android:textSize="20sp"
+            android:textColor="#5C5C5C" />
+
+        <TextView
+            style="@style/pet_attribute"
+            android:text="性别"
+            android:textSize="20sp"
+            android:textColor="#5C5C5C" />
+
+        <TextView
+            style="@style/pet_attribute"
+            android:text="年龄"
+            android:textSize="20sp"
+            android:textColor="#5C5C5C" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:orientation="vertical" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!-- Empty view is only visible when the list has no items. -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <!-- Loading indicator is only shown before the first load -->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

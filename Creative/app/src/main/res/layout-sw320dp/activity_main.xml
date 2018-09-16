@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ws.wolfsoft.creative.MainActivity"
+    android:background="#fff">
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@drawable/img"
+           >
+
+
+        </FrameLayout>
+
+
+    <customfonts.MyTextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#fff"
+        android:textSize="34dp"
+        android:gravity="center"
+        android:layout_marginTop="110dp"
+
+
+        />
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/logo"
+       android:layout_marginTop="245dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+    <LinearLayout
+
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="140dp"
+        >
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="50dp">
+
+
+        <customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Get connected with"
+            android:lines="1"
+            android:textColor="@color/colorhint"
+            android:gravity="center"
+
+            />
+
+        <customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="the best creative network"
+            android:gravity="center"
+            android:lines="2"
+            android:paddingBottom="21dp"
+            android:textColor="@color/colorhint"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            >
+
+
+            <customfonts.MyTextView
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/signin"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signin"
+                android:textColor="#fff"
+                android:background="#2b73e1"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+
+
+            <customfonts.MyTextView
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:id="@+id/Signup"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signup"
+                android:textColor="#fff"
+                android:background="#232323"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="category_hotel">旅店</string>
+    <string name="category_restaurant">餐厅</string>
+    <string name="category_history">景点</string>
+    <string name="category_activity">活动</string>
+</resources>
